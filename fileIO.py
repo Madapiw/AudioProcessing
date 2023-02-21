@@ -27,8 +27,12 @@ class fileIO:
     
     def getFilePath(self):
         return self.filepath
+
+    def getSamplerate(self):
+        return self.samplerate
     
-    def get
+    def setSamplerate(self, sr):
+        self.samplerate = sr
 
     
     
